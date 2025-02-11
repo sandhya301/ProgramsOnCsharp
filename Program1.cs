@@ -29,7 +29,8 @@ namespace Programs
                 }
                 File.WriteAllText(path, sb.ToString());
                 string readText = File.ReadAllText(path);
-                Console.WriteLine("File Content:");
+                Console.WriteLine("\n");
+                Console.WriteLine("File Content:\n");
                 Console.WriteLine(readText);
 
 
