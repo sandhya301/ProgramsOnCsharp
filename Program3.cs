@@ -82,6 +82,7 @@ namespace Programs
             {
                 Console.WriteLine($"Student with ID:{id} not found");
             }
+            Console.WriteLine("-----------------------------------");
         }
 
 
