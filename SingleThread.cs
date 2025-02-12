@@ -14,6 +14,7 @@ class SingleThread
 
         Stopwatch stopwatch = Stopwatch.StartNew();
 
+
         for (int i = 1; i <= 100; i++)
         {
             string filePath = Path.Combine(directory, $"File_{i}.bin");
