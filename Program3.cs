@@ -12,6 +12,7 @@ namespace Programs
         static Dictionary<int, string> students = new Dictionary<int, string>();
 
         static void Main(string[] args)
+
         {
             while (true)
             {
@@ -48,6 +49,7 @@ namespace Programs
         }
 
         static void AddStudent()
+
         {
             Console.WriteLine("--------------------------------");
             Console.WriteLine("Please enter student ID");
@@ -69,6 +71,7 @@ namespace Programs
         }
 
         static void RemoveStudentById()
+
         {
             Console.WriteLine("-----------------------------");
             Console.WriteLine("Enter the student Id");
@@ -102,7 +105,6 @@ namespace Programs
 
             }
             Console.WriteLine("--------------------------------------");
-
         }
     }
 }
